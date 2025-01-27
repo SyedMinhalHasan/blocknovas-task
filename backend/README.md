@@ -79,3 +79,4 @@ We'd like to inform you of important changes to our distribution repository [nod
 
 ## CurrencyExchange
 Hit this **POST** endpoint **localhost:3000/api/currency-convert** and pass **base_code** and **target_code** as body parameters.
+You can set API key for ExchangeRate-API in .env and use that in fetch call (currencyController.js) instead of directly usage of API key in caodebase.
